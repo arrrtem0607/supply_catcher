@@ -1,8 +1,8 @@
 import logging
 import time
-from catcher.api.coefficients import update_coefficients
-from catcher.db.connection import engine
-from catcher.api.coefficients import get_warehouses_once
+from api.coefficients import update_coefficients
+from db.connection import engine
+from api.coefficients import get_warehouses_once
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
