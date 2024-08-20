@@ -2,9 +2,9 @@ import requests
 import logging
 import pandas as pd
 from sqlalchemy.orm import sessionmaker
-from supply_catcher.config import URL_COEFFICIENTS, API_KEY, update_logger
-from supply_catcher.db.models import Coefficient
-from supply_catcher.api.warehouses import get_warehouses
+from ..config import URL_COEFFICIENTS, API_KEY, update_logger
+from ..db.models import Coefficient
+from ..api.warehouses import get_warehouses
 
 
 def fetch_last_coefficients(session):

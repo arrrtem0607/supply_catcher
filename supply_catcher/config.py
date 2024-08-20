@@ -18,9 +18,9 @@ update_logger.addHandler(update_handler)
 # Конфигурация базы данных
 DB_CONFIG = {
     'dbname': 'supply_catcher',
-    'user': 'postgres',
+    'user': 'artem',
     'password': '',
-    'host': '45.144.233.139',
+    'host': 'localhost',
     'port': '5432'
 }
 
