@@ -3,7 +3,7 @@ import logging
 # Настройка логирования
 # Основной логгер
 logging.basicConfig(
-    filename='supply_catcher.log',
+    filename='catcher.log',
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
@@ -17,7 +17,7 @@ update_logger.addHandler(update_handler)
 
 # Конфигурация базы данных
 DB_CONFIG = {
-    'dbname': 'supply_catcher',
+    'dbname': 'catcher',
     'user': 'artem',
     'password': '',
     'host': 'localhost',

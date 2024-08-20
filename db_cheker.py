@@ -3,7 +3,7 @@ from sqlalchemy.exc import OperationalError
 
 # Конфигурация базы данных
 DB_CONFIG = {
-    'dbname': 'supply_catcher',
+    'dbname': 'catcher',
     'user': 'postgres',
     'password': '',
     'host': '45.144.233.139',

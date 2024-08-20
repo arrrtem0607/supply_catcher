@@ -1,6 +1,6 @@
 import requests
 import logging
-from ..config import URL_WAREHOUSES, API_KEY
+from catcher.config import URL_WAREHOUSES, API_KEY
 
 logger = logging.getLogger(__name__)
 

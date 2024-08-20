@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from ..db.models import Base
-from ..config import DB_CONFIG
+from catcher.db.models import Base
+from catcher.config import DB_CONFIG
 
 # Формируем строку подключения из конфигурации
 DATABASE_URL = (f"postgresql://{DB_CONFIG['user']}:{DB_CONFIG['password']}"
